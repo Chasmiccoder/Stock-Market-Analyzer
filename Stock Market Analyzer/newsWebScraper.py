@@ -10,6 +10,6 @@ def collect_news( keywords ):
     =======
     news (list of strings) = Text scraped from news articles with relevant keywords
     """
-    
-    news = "Hello"
+
+    news = ["Hello"]
     return news

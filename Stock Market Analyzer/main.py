@@ -4,4 +4,6 @@ import newsWebScraper
 keywords = [ "Google" ]
 news = newsWebScraper.collect_news( keywords )
 
-print("News Collected:", news )
+print( "News Collected:" )
+for text in news:
+    print(text)
